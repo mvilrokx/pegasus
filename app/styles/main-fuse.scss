@@ -1,0 +1,255 @@
+$icon-font-path: "/bower_components/fuse-bootstrap/fonts/";
+
+@import 'fuse-bootstrap/lib/fuse-bootstrap-theme-dark-blue';
+@import 'compass/css3';
+
+#oracle-logo-svg {
+    width: 150px;
+    fill: white
+}
+
+.pegasus-link {
+	padding-left: 370px;
+	// background: #fff;
+	// @include border-radius(18px);
+	// width: 36px;
+	// height: 36px;
+	// display: block;
+	// float: right;
+	// & > img {
+	// 	padding-left: 5px;
+	// 	padding-top: 5px;
+	// 	width: 25px;
+	// 	height: 25px;
+	// }
+}
+
+.pegasus-input {
+	margin-top: 5px;
+	background: url(../images/pegasus-wing.svg) no-repeat;
+	background-size: 25px 25px;
+	width: 25px;
+	height: 25px;
+}
+
+.long-pegasus-input {
+	width: 490px;
+}
+
+// Bootstrap override
+input[type="text"].pegasus-input {
+	padding-left:30px;
+}
+
+.light {
+	font-weight: normal;
+	color: #555;
+}
+
+.final {
+  color: black;
+  padding-right: 3px;
+}
+.interim {
+  color: gray;
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity: .75;
+	display: none;
+}
+
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.pegasus-result-sets {
+	font-variant: small-caps;
+	font-size: 1.2em;
+}
+
+.pegasus-result-set {
+	font-variant: normal;
+	font-size: .9em;
+	font-weight: bold;
+	border-bottom: 1px #ccc solid;
+	& > li > a {
+		display: block;
+		color: #333;
+		padding-left: 25px;
+		margin-left: -25px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		&:hover {
+			background: #1E4B6E;
+			color: #eee;
+			text-decoration:none;
+		}
+	}
+	& > li:last-child {
+		margin-bottom: 10px;
+	}
+}
+
+// spinner !!!
+.spinner-background {
+position: absolute;
+	  margin: -50px 0 0 -50px;
+	  left: 50%;
+	  top: 50%;
+		background-color:#DDD;
+    @include border-radius(20px);
+    height:130px;
+    width:130px;
+}
+.loading1 {
+    height:100px;
+    position:relative;
+    width:80px;
+    top: 15px;
+    left: 25px;
+}
+.loading1 > div {
+    background-color:#FFF;
+    height:30px;
+    position:absolute;
+    width:12px;
+
+    @include border-radius(5px);
+		@include transform(scale(0.4));
+
+    /* css3 animation */
+    -webkit-animation-name:loading1;
+    -webkit-animation-duration:1.04s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:linear;
+    -moz-animation-name:loading1;
+    -moz-animation-duration:1.04s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-direction:linear;
+    -o-animation-name:loading1;
+    -o-animation-duration:1.04s;
+    -o-animation-iteration-count:infinite;
+    -o-animation-direction:linear;
+}
+.loading1 > div:nth-child(1) {
+    left:0;
+    top:36px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(-90deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:0.39s;
+    -moz-animation-delay:0.39s;
+    -o-animation-delay:0.39s;
+}
+
+.loading1 > div:nth-child(2) {
+    left:10px;
+    top:13px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(-45deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:0.52s;
+    -moz-animation-delay:0.52s;
+    -o-animation-delay:0.52s;
+}
+
+.loading1 > div:nth-child(3) {
+    left:34px;
+    top:4px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(0deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:0.65s;
+    -moz-animation-delay:0.65s;
+    -o-animation-delay:0.65s;
+}
+
+.loading1 > div:nth-child(4) {
+    right:10px;
+    top:13px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(45deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:0.78s;
+    -moz-animation-delay:0.78s;
+    -o-animation-delay:0.78s;
+}
+.loading1 > div:nth-child(5) {
+    right:0;
+    top:36px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(90deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:0.91s;
+    -moz-animation-delay:0.91s;
+    -o-animation-delay:0.91s;
+}
+.loading1 > div:nth-child(6) {
+    right:10px;
+    bottom:9px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(135deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:1.04s;
+    -moz-animation-delay:1.04s;
+    -o-animation-delay:1.04s;
+}
+.loading1 > div:nth-child(7) {
+    bottom:0;
+    left:34px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(180deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:1.17s;
+    -moz-animation-delay:1.17s;
+    -o-animation-delay:1.17s;
+}
+.loading1 > div:nth-child(8) {
+    left:10px;
+    bottom:9px;
+
+    /* css3 transform - rotate */
+		@include transform(rotate(-135deg));
+
+    /* css3 animation */
+    -webkit-animation-delay:1.3s;
+    -moz-animation-delay:1.3s;
+    -o-animation-delay:1.3s;
+}
+
+/* css3 keyframes - loading1 */
+@-webkit-keyframes loading1 {
+    0%{ background-color:#000000 }
+    100%{ background-color:#FFFFFF }
+}
+@-moz-keyframes loading1 {
+    0%{ background-color:#000000 }
+    100%{ background-color:#FFFFFF }
+}
+@-o-keyframes loading1 {
+    0%{ background-color:#000000 }
+    100%{ background-color:#FFFFFF }
+}

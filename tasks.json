@@ -1,0 +1,12 @@
+{"id":"1","term":"Create opportunity","score":"100","data":{"url":"/opportunities/new","subtitle":"Create opportunity","connection":"","level":0}}
+{"id":"2","term":"Update opportunity","score":"100","data":{"url":"/opportunities/update","subtitle":"Update opportunity","connection":"","level":0}}
+{"id":"3","term":"Delete opportunity","score":"100","data":{"url":"/opportunities/delete","subtitle":"Delete opportunity","connection":"","level":0}}
+{"id":"10","term":"Create lead","score":"99","data":{"url":"/opportunities/new","subtitle":"Create lead","connection":"","level":0}}
+{"id":"20","term":"Update lead","score":"99","data":{"url":"/opportunities/update","subtitle":"Update lead","connection":"","level":0}}
+{"id":"30","term":"Delete lead","score":"99","data":{"url":"/opportunities/delete","subtitle":"Delete lead","connection":"","level":0}}
+{"id":"100","term":"Create contact","score":"98","data":{"url":"/opportunities/new","subtitle":"Create contact","connection":"","level":0}}
+{"id":"200","term":"Update contact","score":"98","data":{"url":"/opportunities/update","subtitle":"Update contact","connection":"","level":0}}
+{"id":"300","term":"Delete contact","score":"98","data":{"url":"/opportunities/delete","subtitle":"Delete contact","connection":"","level":0}}
+{"id":"1000","term":"Create customer","score":"97","data":{"url":"/opportunities/new","subtitle":"Create customer","connection":"","level":0}}
+{"id":"2000","term":"Update customer","score":"97","data":{"url":"/opportunities/update","subtitle":"Update customer","connection":"","level":0}}
+{"id":"3000","term":"Delete customer","score":"97","data":{"url":"/opportunities/delete","subtitle":"Delete customer","connection":"","level":0}}
