@@ -1,0 +1,43 @@
+// pre-qualify everything with fuse-theme-dark-blue class, set on body element to apply this style
+.fuse-theme-dark-blue {
+
+	.indicator .active {
+		text-align: center;
+	}
+
+	.indicator .active:after {
+		content: "";
+		width: 0px;
+		height: 0px;
+		border-style: solid;
+		border-width: 0 15px 15px 15px;
+		border-color: transparent transparent $panelBackgroundColor transparent;
+		transition-property: left;
+		position: relative;
+		bottom: -8px;
+	}
+
+	.navbar-inner {
+  	border: none;
+  	@include box-shadow(0 0 0 $transparent);
+	}
+
+	.panel {
+		background-color: $panelBackgroundColor;
+		@include border-radius($panelBorderRadius);
+		@include box-shadow($panelBoxShadow);
+	}
+
+	// Active nav items
+	.navbar .nav > .active > a,
+	.navbar .nav > .active > a:hover,
+	.navbar .nav > .active > a:focus {
+	  @include box-shadow(inset 0 0 0 $transparent);
+	}
+
+	.nav-pills {
+		li {text-align:center;}
+		i {font-size:40px; margin-bottom: 10px;}
+		a {font-size: 16px;}
+	}
+}
