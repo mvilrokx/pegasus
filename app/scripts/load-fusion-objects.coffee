@@ -1,4 +1,4 @@
-logon = {ws_host: 'https://fap0912-crm.oracleads.com', user : 'lisa.jones', pwd : 'rYW34347'}
+logon = {ws_host: 'https://fap0912-crm.oracleads.com', user : 'lisa.jones', pwd : 'ZyU36363'}
 crm_server = 'http://fusion-crm-server.herokuapp.com/'
 
 two_line = /\n\n/g
